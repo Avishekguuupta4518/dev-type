@@ -1,0 +1,21 @@
+{
+    "name": "DevType",
+    "short_name": "DevType",
+    "description": "Practice typing with real code snippets",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#323437",
+    "theme_color": "#e2b714",
+    "icons": [
+        {
+            "src": "/favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
