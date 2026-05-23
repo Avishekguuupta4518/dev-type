@@ -61,7 +61,7 @@ Add a dynamic activity heatmap to your GitHub profile or personal website:
 
 `![DevType Stats](https://devtype.pankajk.tech/api/embed/your_username?theme=ocean)`
 
-Supported themes: `dark` (default), `ocean`, `forest`, `sunset`, `light`.
+Supported themes: `dark` (default), `ocean`, `forest`, `sunset`, `darchula`, etc.
 ---
 ## Tech Stack
 
