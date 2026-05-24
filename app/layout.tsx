@@ -3,7 +3,7 @@ import Providers from "@/components/Providers";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 
-const siteUrl = "https://devtype.avishek.tech";
+const siteUrl = "https://dev-type-sepia.vercel.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -89,7 +89,7 @@ export default function RootLayout({
         <meta name="twitter:creator" content="@avishekkumargupta" />
         <meta name="twitter:title" content="DevType - Master Your Coding Speed" />
         <meta name="twitter:description" content="Practice typing with real code snippets. Improve your WPM and accuracy." />
-        <meta name="twitter:image" content="https://devtype.avishek.tech/og-image.png" />
+        <meta name="twitter:image" content="https://dev-type-sepia.vercel.app//og-image.png" />
         <meta name="twitter:image:alt" content="DevType - Typing Speed Test for Developers" />
       </head>
       <body className="antialiased">

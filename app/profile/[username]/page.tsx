@@ -53,8 +53,8 @@ function EmbedSection({ username }: { username: string }) {
     setTimeout(() => setCopied(null), 2000);
   };
 
-  const embedUrl = `https://devtype.avishek.tech/api/embed/${username}${selectedTheme !== 'dark' ? `?theme=${selectedTheme}` : ''}`;
-  const profileUrl = `https://devtype.avishek.tech/profile/${username}`;
+  const embedUrl = `https://dev-type-sepia.vercel.app//api/embed/${username}${selectedTheme !== 'dark' ? `?theme=${selectedTheme}` : ''}`;
+  const profileUrl = `https://dev-type-sepia.vercel.app//profile/${username}`;
   const markdownCode = `[![DevType Activity](${embedUrl})](${profileUrl})`;
 
   return (
